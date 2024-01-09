@@ -49,10 +49,13 @@ h3 {
 h4 {
     font-size: 1.3em;
     font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #c655ff;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin: 3rem 0;
 }
 p {
     display: block;
@@ -240,6 +243,9 @@ works
     background-color: #fffeff;
     box-shadow: #222;
 }
+#works ul .work_item .work_detail h3{
+    border-bottom: solid 3px #c655ff;
+}
 #works ul .work_item .work_detail .app_img{
     width: 100%;
     height: 300px;
@@ -250,12 +256,35 @@ works
     object-fit: cover;
     aspect-ratio: none;
 }
+#works ul .work_item .work_detail p {
+    text-align: left;
+}
+#works ul .work_item .work_detail .explanation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#works ul .work_item .work_detail .explanation p{
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: solid 2px #c655ff;
+}
+#works ul .work_item .work_detail .explanation .app_view {
+    width: 40%;
+    height: 640px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
 /*
 table
 */
 table {
     border-collapse: collapse;
     margin: auto;
+    z-index: 999;
 }
 th,td {
     padding: 5px 10px;

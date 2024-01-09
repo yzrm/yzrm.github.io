@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../ハッカソン/homepage"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "yzrm"
+	}
+}
