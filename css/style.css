@@ -16,7 +16,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 9;
     background: #00000050;
 }
 .wrap {
@@ -238,7 +238,7 @@ works
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
-    z-index: 999;
+    z-index: 99;
     border-radius: 10px;
     background-color: #fffeff;
     box-shadow: #222;
@@ -284,7 +284,7 @@ table
 table {
     border-collapse: collapse;
     margin: auto;
-    z-index: 999;
+    z-index: 9999;
 }
 th,td {
     padding: 5px 10px;
@@ -297,6 +297,10 @@ th {
 td {
     background-color:  #fffeff;
     color: #222;
+}
+td a{
+    position: relative;
+    z-index: 99999;
 }
 tr {
     border: solid #000;
